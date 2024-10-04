@@ -1,0 +1,21 @@
+class sertar{
+    int latime, lungime, inaltime;
+    public void set(int latime, int lungime, int inaltime)
+    {
+	this.latime=latime;
+	this.lungime=lungime;
+	this.inaltime=inaltime;
+    }
+    public void tipareste()
+    {
+	System.out.println("Sertar " + latime+" "  + lungime+ " " + inaltime);
+	
+    }
+
+    public static void main(String[] args)
+    {
+	sertar s= new sertar();
+	s.set(3,4,5);
+	s.tipareste();
+    }
+}

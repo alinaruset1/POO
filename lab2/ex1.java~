@@ -1,0 +1,11 @@
+class ex1{
+	private ex1()
+	    {
+		System.out.println("Private Constructor");
+	    }
+    public static void main(String[] args)
+    {
+	ex1 obiect= new ex1();
+    }
+
+}

@@ -1,0 +1,24 @@
+class birou{
+    private int latime;
+    private int lungime;
+    private int inaltime;
+    private sertar sertar1;
+    private sertar sertar2;
+
+    public birou(int latime, int lungime, iint inaltime, sertar sertar1, sertar sertar2)
+    {
+	this.latime=latime;
+	this.lungime=lungime;
+	this.inaltime=inaltime;
+	this.sertar1=sertar1;
+	this.sertar2=sertar2;
+    }
+
+    public void tipareste()
+    {
+	System.out.println("Birou: " +latime+ "x"+lungime+"x"+inaltime+"x");
+	System.out.println("Contine: ");
+	sertar1.tipareste();
+	sertar2.tipareste();
+    }
+}

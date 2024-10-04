@@ -1,0 +1,5 @@
+class MyClass{
+    public int a;
+    public char b;
+    System.out.println(a + b);
+}

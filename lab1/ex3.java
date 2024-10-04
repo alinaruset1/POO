@@ -1,0 +1,18 @@
+class ex3{
+    public static void main(String[] args)
+    {
+	int i=0, s=0;
+	for(i=0; i<=100; i++)
+	    {
+		if(i%2==0)
+		    {
+			s=s+i;
+		    }
+		else
+		    {
+			System.out.println(i);
+		    }
+	    }
+	System.out.println("Suma este " + s);
+    }
+}
